@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "application.Main",
+            "projectName": "project-javafx-jdbc_343cc691",
+            "vmArgs": "--module-path C:\\java-libs\\javafx-sdk-19\\lib --add-modules=javafx.fxml,javafx.controls"
+        }
+    ]
+}
