@@ -5,7 +5,7 @@
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "application.Main",
-            "projectName": "project-javafx-jdbc_46ff75a6",
+            "projectName": "project-javafx-jdbc_343cc691",
             "vmArgs": "--module-path C:\\java-libs\\javafx-sdk-17\\lib --add-modules=javafx.fxml,javafx.controls"
         }
     ]
