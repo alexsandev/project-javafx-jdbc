@@ -192,6 +192,6 @@ public class SellerDaoJDBC implements SellerDao{
     }
 
     private Seller instantiateSeller(ResultSet rs, Department department) throws SQLException{
-        return new Seller(rs.getInt("Id"), rs.getString("Name"), rs.getString("Email"), rs.getDate("BirthDate"), rs.getDouble("BaseSalary"), department);
+        return new Seller(rs.getInt("Id"), rs.getString("Name"), rs.getString("Email"), new java.util.Date(rs.getDate("BirthDate").getTime()), rs.getDouble("BaseSalary"), department);
     }
 }
